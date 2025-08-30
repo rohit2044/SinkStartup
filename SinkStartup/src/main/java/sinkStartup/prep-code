@@ -1,0 +1,14 @@
+1. setupGame
+    1. Create 3 startup object, assigning each its own location array, give names
+
+2. playGame
+    1. take user guess checkUserGuess()
+    2. check guess for each startup object
+        1. if miss -> continue
+        2. if hit -> break (since we dont want to loop through other startups)
+        3. if kill -> remove startup -> break
+    3. if all startups dead -> finishGame()
+3. checkUserGuess
+    1. check guess for each startup
+4. finishGame
+    1. give user score
